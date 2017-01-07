@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  MarkExampleController.h
 //  DVSRunProgressView
 //
 //  Created by DevinShine on 17/1/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface MarkExampleController : UIViewController
 
 @end
-

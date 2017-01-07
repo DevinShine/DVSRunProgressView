@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  RunAppViewController.h
 //  DVSRunProgressView
 //
 //  Created by DevinShine on 17/1/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-
+@interface RunAppViewController : UIViewController
 
 @end
-
