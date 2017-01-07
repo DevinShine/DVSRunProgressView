@@ -24,6 +24,7 @@
     self.classNames = @[].mutableCopy;
     [self addCell:@"Circle Example" class:@"CircleExampleController"];
     [self addCell:@"Mark Example" class:@"MarkExampleController"];
+    [self addCell:@"RunProgress Example" class:@"RunProgressExampleController"];
     [self.tableView reloadData];
 }
 

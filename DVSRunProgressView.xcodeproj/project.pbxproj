@@ -20,6 +20,7 @@
 		2B024BA71E20C1080091497D /* CircleExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B024BA51E20C1080091497D /* CircleExampleController.xib */; };
 		2B024BAB1E20C31B0091497D /* MarkExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B024BA91E20C31B0091497D /* MarkExampleController.m */; };
 		2B024BAC1E20C31B0091497D /* MarkExampleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B024BAA1E20C31B0091497D /* MarkExampleController.xib */; };
+		2B024BAF1E20CBFE0091497D /* RunProgressExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B024BAE1E20CBFE0091497D /* RunProgressExampleController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		2B024BA81E20C31B0091497D /* MarkExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkExampleController.h; sourceTree = "<group>"; };
 		2B024BA91E20C31B0091497D /* MarkExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkExampleController.m; sourceTree = "<group>"; };
 		2B024BAA1E20C31B0091497D /* MarkExampleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkExampleController.xib; sourceTree = "<group>"; };
+		2B024BAD1E20CBFE0091497D /* RunProgressExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunProgressExampleController.h; sourceTree = "<group>"; };
+		2B024BAE1E20CBFE0091497D /* RunProgressExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunProgressExampleController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				2B024BA81E20C31B0091497D /* MarkExampleController.h */,
 				2B024BA91E20C31B0091497D /* MarkExampleController.m */,
 				2B024BAA1E20C31B0091497D /* MarkExampleController.xib */,
+				2B024BAD1E20CBFE0091497D /* RunProgressExampleController.h */,
+				2B024BAE1E20CBFE0091497D /* RunProgressExampleController.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B024BAF1E20CBFE0091497D /* RunProgressExampleController.m in Sources */,
 				2B024B7F1E20B7500091497D /* AppDelegate.m in Sources */,
 				2B024B9C1E20BB9B0091497D /* RunAppViewController.m in Sources */,
 				2B024B991E20B79E0091497D /* DVSRunProgressView.m in Sources */,

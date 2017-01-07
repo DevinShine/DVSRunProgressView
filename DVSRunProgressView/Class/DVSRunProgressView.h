@@ -22,6 +22,8 @@ typedef void(^DVSRunProgressViewCompletionBlock)(void);
 IB_DESIGNABLE
 
 @interface DVSRunProgressView : UIView
+
+/** The basic duration of the object. Defaults to 1. */
 @property(nonatomic, assign) IBInspectable CFTimeInterval duration;
 
 /** The start angle. (e.g. 225) */

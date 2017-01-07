@@ -172,7 +172,7 @@ static inline CGFloat angle2Radian(CGFloat angle) {
     _normalLayer.mask = [self generateMaskLayerWithPath:maskPath];
     
     if (_type == DVSRunProgressViewTypeNormal) {
-        UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:centers radius:width/2 - _circleRadiusOffset   startAngle:angle2Radian(_startAngle) endAngle:angle2Radian(_endAngle) clockwise:YES];
+        UIBezierPath *circlePath = [UIBezierPath bezierPathWithArcCenter:centers radius:width/2 + _circleRadiusOffset   startAngle:angle2Radian(_startAngle) endAngle:angle2Radian(_endAngle) clockwise:YES];
         CAShapeLayer *selectLayer = [CAShapeLayer layer];
         selectLayer.path = circlePath.CGPath;
         selectLayer.frame = self.bounds;
