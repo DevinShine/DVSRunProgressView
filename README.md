@@ -1,7 +1,8 @@
 # DVSRunProgressView
 
 Inspired by the [works](https://dribbble.com/shots/3186995-THe-application-of-movement) of [Xerxes](https://dribbble.com/W_e_i)
-[Read my article](http://www.jianshu.com/p/db242a4a5038)
+
+可以阅读我的文章了解具体制作思路。[Read my article](http://www.jianshu.com/p/db242a4a5038)
 
 ![6](http://o6lbfzf4d.bkt.clouddn.com/2017-01-07-6.gif)
 
